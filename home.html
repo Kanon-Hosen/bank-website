@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="text-center mt-3 text-success">Wlecome in your account!!</h1>
+        <div class="row mx-auto d-flex align-items-center justify-content-evenly">
+            <div class="col-4 bg-info g-4 w-25 p-4 text-white rounded">
+                <h1>Deposite</h1>
+                <h1 class="fw-bold">$<span id="depositeText">00</span></h1>
+            </div>
+            <div class="col-4 bg-warning g-4 w-25 p-4 text-white rounded">
+                <h1>Withdraw</h1>
+                <h1 class="fw-bold">$<span id="withdrawText">00</span></h1>
+            </div>
+            <div class="col-4 bg-primary g-4 w-25 p-4  text-white rounded">
+                <h1>Balance</h1>
+                <h1 class="fw-bold">$<span id="balanceText">1000</span></h1>
+            </div>
+        </div>
+        <h1 class="text-center mt-4 fw-bold">Transection</h1>
+        <div class="row mt-5 mx-auto">
+        <div class="col-6">
+            <div class="p-5 bg-info ">
+                <h2>Deposite Here</h2>
+                <div class="mb-3">
+                    <input type="number" class="form-control" id="depositeAmount" placeholder="$ Enter your amount">
+                  </div>
+                  <button type="submit" class="btn btn-dark px-4" id="depsite_btn">Deposite</button>
+            </div>
+        </div>
+        <div class="col-6 ">
+            <div class="p-5 bg-warning">
+                <h2>Withdraw Here</h2>
+                <div class="mb-3">
+                    <input type="number" class="form-control" id="withdrawAmount" placeholder="$ Enter your amount">
+                  </div>
+                  <button type="submit" class="btn btn-dark px-4" id="withdraw_btn">Withdraw</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- custom js link  -->
+    <script src="home.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
